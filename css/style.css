@@ -1,0 +1,128 @@
+.custom-navbar {
+  background-color: #081629;
+  
+}
+
+
+header{
+    min-height: 100vh;
+    /* background:linear-gradient(rgba(255, 166, 0, 0.3) , rgba(255, 166, 0, 0.3)) , url(../images/cctv-bg.jpg); */
+    background: url(../images/head_bg.png);
+    background-position: right top; 
+    background-size: cover;
+}
+
+.header-text{
+    text-align: center;
+    position: absolute;
+    top: 50%; left: 40%;
+    transform: translate(-50% , -50%);
+}
+
+#about h5{
+    letter-spacing: 5px;
+}
+#about img{
+    min-height: 100%;
+}
+
+.custom-card-bg {
+    background-color: #8c00ff; /* Example custom color (orange) */
+  }
+
+.btn-violet {
+  background-color: #8A2BE2; /* Violet color */
+  border-color: #8A2BE2; /* Border color */
+  color: white;
+}
+.btn-violet:hover {
+  background-color: #7B68EE; /* Darker violet color on hover */
+  border-color: #7B68EE; /* Darker border color on hover */
+}
+
+.map-container {
+  margin-bottom: auto;
+  margin-top: auto; /* Adjust the top margin as needed */
+  text-align: auto; /* Center the map horizontally */
+
+}
+
+/* Styles for the testimonial section */
+#testimonial {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#testimonial h5 {
+  color: #0000ff; /* Change the color to your preference */
+}
+
+#testimonial h3 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#testimonial .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#testimonial .card {
+  background-color: rgba(0, 0, 255, 0.1); /* Adjust the background color transparency to your preference */
+  text-align: center;
+  border: 0;
+  margin-bottom: 30px;
+  padding: 30px;
+  flex: 1;
+}
+
+#testimonial .card img {
+  width: 25%;
+  margin-top: -40px;
+  border-radius: 50%;
+}
+
+#testimonial .card p {
+  margin: 15px 0;
+}
+
+#testimonial .card h4 {
+  margin-bottom: 10px;
+}
+
+#testimonial .card h5 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  #testimonial .col-md-4 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #testimonial .card {
+    padding: 20px;
+  }
+  
+  #testimonial .card img {
+    width: 35%;
+    margin-top: -30px;
+  }
+}
+.card-1-and-3 {
+  background-color: #000080;
+}
+
+.custom-footer {
+  background-color: #081629;
+}
+.footer-text {
+  text-align: left;
+}
+.footer-icons a {
+  text-decoration: none; /* Remove underline */
+}
